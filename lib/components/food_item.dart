@@ -22,7 +22,7 @@ const FoodItem({ Key? key, required this.itemTitle, required this.itemPrice, req
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(itemTitle, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),),
-                  Text("R\$ " + itemPrice),
+                  Text("R\$ $itemPrice"),
                 ],
               ),
             ),

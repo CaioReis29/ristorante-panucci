@@ -34,9 +34,9 @@ class MainDrawer extends StatelessWidget {
                   return const Home();
                 })));
               },
-              title: Row(
+              title: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const <Widget>[
+                  children: <Widget>[
                     Icon(Icons.receipt_long),
                     Expanded(
                         child: Padding(
@@ -56,9 +56,9 @@ class MainDrawer extends StatelessWidget {
               iconColor: AppColors.drawerIconColor,
               textColor: AppColors.drawerFontColor,
               onTap: () {},
-              title: Row(
+              title: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const <Widget>[
+                  children: <Widget>[
                     Icon(Icons.fact_check_outlined),
                     Expanded(
                         child: Padding(
